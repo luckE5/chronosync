@@ -622,8 +622,8 @@ export default function ProfilePage() {
                     </Button>
                     <Button
                       type="button"
-                      variant="destructive"
-                      className="rounded-lg"
+                      variant="default"
+                      className="bg-red-500 hover:bg-red-600 text-white rounded-lg"
                       disabled={
                         deleteBusy ||
                         deleteConfirm.trim() !== DELETE_CONFIRM_PHRASE
